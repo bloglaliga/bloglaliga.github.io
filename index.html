@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaLiga Blog</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
+    <body>
+        <header>
+            <nav id="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"><img src="./images/menu_icon_bars.png"></i>
+                </label>
+                <a href="./index.html"><img src="./images/logo.png"></a>
+                <ul>
+                    <li><a>Inicio</a></li>
+                    <li><a>Noticias</a></li>
+                    <li><a>Jornadas</a>
+                        <ul id="submenu">
+                            <li><a href="#">Jornada 1</a></li>
+                            <li><a href="#">Jornada 2</a></li>
+                            <li><a href="#">Jornada 3</a></li>
+                            <li><a href="#">Jornada 4</a></li>
+                            <li><a href="#">Jornada 5</a></li>
+                            <li><a href="#">Jornada 6</a></li>
+                            <li><a href="#">Jornada 7</a></li>
+                            <li><a href="#">Jornada 8</a></li>
+                            <li><a href="#">Jornada 9</a></li>
+                            <li><a href="#">Jornada 10</a></li>
+                            <li><a href="#">Jornada 11</a></li>
+                            <li><a href="#">Jornada 12</a></li>
+                            <li><a href="#">Jornada 13</a></li>
+                            <li><a href="#">Jornada 14</a></li>
+                            <li><a href="#">Jornada 15</a></li>
+                            <li><a href="#">Jornada 16</a></li>
+                            <li><a href="#">Jornada 17</a></li>
+                            <li><a href="#">Jornada 18</a></li>
+                            <li><a href="#">Jornada 19</a></li>
+                            <li><a href="#">Jornada 20</a></li>
+                            <li><a href="#">Jornada 21</a></li>
+                            <li><a href="#">Jornada 22</a></li>
+                            <li><a href="#">Jornada 23</a></li>
+                            <li><a href="#">Jornada 24</a></li>
+                            <li><a href="#">Jornada 25</a></li>
+                            <li><a href="#">Jornada 26</a></li>
+                            <li><a href="#">Jornada 27</a></li>
+                            <li><a href="#">Jornada 28</a></li>
+                            <li><a href="#">Jornada 29</a></li>
+                            <li><a href="#">Jornada 30</a></li>
+                            <li><a href="#">Jornada 31</a></li>
+                            <li><a href="#">Jornada 32</a></li>
+                            <li><a href="#">Jornada 33</a></li>
+                            <li><a href="#">Jornada 34</a></li>
+                            <li><a href="#">Jornada 35</a></li>
+                            <li><a href="#">Jornada 36</a></li>
+                            <li><a href="#">Jornada 37</a></li>
+                            <li><a href="#">Jornada 38</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <article id="titulo">
+                <h1>Informació  n <br> de LaLiga</h1>
+            </article>
+        </header>
+        <main></main>
+        <section id="tabla">
+            <h1>Tabla de clasificació n</h1>
+            <article>
+                <iframe  src="Tabla_clasificación/tabla_clasificacion.html" scrolling="no"></iframe>
+            </article>
+            <article id="banner">
+                <h2 id="CL">Champions League</h2>
+                <h2 id="EL">Europa League</h2>
+                <h2 id="CO">Conference League</h2>
+                <h2 id="D">Descenso</h2>
+            </article>
+            
+        </section>
+        <section id="stats">
+            <h1>Estadísticas</h1>
+            <!-- Añado una nueva seccion ya que necesito que el h1 no se vea afentado por el padding del css, y si no lo 
+            separo en otra sección se verá afectado por esta propiedad -->
+            <section id="stats_tablas">
+                <article>
+                    <iframe  src="estadísticas/goles/mg_tabla.html" scrolling="no"></iframe>
+                </article>
+                <article>
+                    <iframe src="estadísticas/disparos/d_tabla.html" scrolling="no"></iframe>
+                </article>
+                <article>
+                    <iframe src="./estadísticas/pases/pases_tabla.html" scrolling="no"></iframe>
+                </article>
+                <article>
+                    <iframe src="./estadísticas/asistencias/asistencias_tabla.html" scrolling="no"></iframe>
+                </article>
+                <article>
+                    <iframe src="./estadísticas/recuperaciones/recuperaciones_tabla.html" scrolling="no"></iframe>
+                </article>
+                <article>
+                    <iframe src="./estadísticas/paradas/paradas_tabla.html" scrolling="no"></iframe>
+                </article>
+                </section>
+        </section>
+        <footer>
+            <section id="redes_sociales">
+                <article id="facebook"><a href="https://es-la.facebook.com/LaLiga/"><img src="./images/redes_sociales/facebook_logo.png"></a></article>
+                <article id="twitter"><a href="https://twitter.com/LaLiga"><img src="./images/redes_sociales/twitter_logo.png"></a></article>
+                <article id="youtube"><a href="https://www.youtube.com/user/laliga"><img src="./images/redes_sociales/youtube_logo.png"></a></article>
+            </section>
+            <p>Sitio creado en HTML por David Broglio Quero</p>
+        </footer>
+    </body>
+</html>
