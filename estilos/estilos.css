@@ -1,4 +1,3 @@
-
 /*------------------ CARACTERÍSTICAS COMUNES ------------------*/
 /* Añado una fuente personalizada */
 @font-face {
@@ -11,11 +10,19 @@
     text-decoration: none;
     color: white;
 }
-h2 {
+span{
+    margin-right: 34px;
+}
+#leyenda li {
     font-family: 'futura';
     color: white;
     font-size: small;
     display: inline-block;
+}
+h2{
+    font-family: 'futura';
+    color: white;
+    text-align: center;
 }
 h1 {
     font-family: 'futura';
@@ -88,11 +95,32 @@ li a.active, li a:hover{
     background-color: #5d5e62;
     cursor: pointer;
 }
-   
+#menu ul img{
+    height: 20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 #menu ul ul li {
     float:none;
     width:100%;
 }
+#menu ul #inicioSesion{
+    position: relative;
+}
+#menu ul #inicioSesion #userActive{
+    display: none;
+    position: absolute;
+}
+#menu ul #inicioSesion:hover  #userActive{
+    display: block;
+    width: auto;
+}
+#menu ul #inicioSesion:hover  #user{
+    display: none;
+    position: absolute;
+}
+
    
    /* items del menu desplegable al pasar el ratón */
    
@@ -204,7 +232,7 @@ nav a img {
 #tabla article{
     padding-bottom: 0%;
 }
-#banner {
+#leyenda {
     text-align: center;
     margin-top: 0;
 }
@@ -342,21 +370,18 @@ footer {
     padding-bottom: 3%;
     margin-bottom: 0;
 }
-#twitter img{
-    width: 100%;
-    height: 100%;
-}
-#facebook img{
-    width: 50%;
-    height: 50%;
-}
-#youtube img{
-    width: 100%;
-    height: 100%;
-}
-footer article{
+#twitter {
     width: 2%;
-    height: 5%;
+}
+#facebook {
+    width: 1%;
+    height: 1%;
+}
+#youtube {
+    width: 2%;
+    height: 100%;
+}
+footer img{
     display: inline-block;
     padding-left: 2%;
 
@@ -478,5 +503,8 @@ footer article{
     } 
     #stats_tablas{
         padding-left: 13%;
+    }
+    span{
+        margin-right: 20px;
     }
 }

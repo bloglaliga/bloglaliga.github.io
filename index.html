@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaLiga Blog</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo_pestaña.png">
     <link rel="stylesheet" href="./estilos/estilos.css">
 </head>
     <body>
@@ -59,31 +60,30 @@
                             <li><a href="#">Jornada 37</a></li>
                             <li><a href="#">Jornada 38</a></li>
                         </ul>
+                        <li id="inicioSesion"><a href="./forms/inicioSesion.html"><img id="user" src="./images/user.png" alt=""><img id="userActive" src="./images/userActive.png" alt=""></a></li>
                     </li>
                 </ul>
             </nav>
             <article id="titulo">
-                <h1>Informació  n <br> de LaLiga</h1>
+                <h1>Informaci<span>ó</span>n <br> de LaLiga</h1>
             </article>
         </header>
         <main></main>
         <section id="tabla">
-            <h1>Tabla de clasificació n</h1>
+            <h2>Tabla de clasificación</h2>
             <article>
                 <iframe  src="Tabla_clasificación/tabla_clasificacion.html" scrolling="no"></iframe>
             </article>
-            <article id="banner">
-                <h2 id="CL">Champions League</h2>
-                <h2 id="EL">Europa League</h2>
-                <h2 id="CO">Conference League</h2>
-                <h2 id="D">Descenso</h2>
-            </article>
+            <ul id="leyenda">
+                <li id="CL">Champions League</li>
+                <li id="EL">Europa League</li>
+                <li id="CO">Conference League</li>
+                <li id="D">Descenso</li>
+            </ul>
             
         </section>
         <section id="stats">
-            <h1>Estadísticas</h1>
-            <!-- Añado una nueva seccion ya que necesito que el h1 no se vea afentado por el padding del css, y si no lo 
-            separo en otra sección se verá afectado por esta propiedad -->
+            <h2>Estadísticas</h2>
             <section id="stats_tablas">
                 <article>
                     <iframe  src="estadísticas/goles/mg_tabla.html" scrolling="no"></iframe>
@@ -107,9 +107,9 @@
         </section>
         <footer>
             <section id="redes_sociales">
-                <article id="facebook"><a href="https://es-la.facebook.com/LaLiga/"><img src="./images/redes_sociales/facebook_logo.png"></a></article>
-                <article id="twitter"><a href="https://twitter.com/LaLiga"><img src="./images/redes_sociales/twitter_logo.png"></a></article>
-                <article id="youtube"><a href="https://www.youtube.com/user/laliga"><img src="./images/redes_sociales/youtube_logo.png"></a></article>
+                <a href="https://es-la.facebook.com/LaLiga/"><img id="facebook" src="./images/redes_sociales/facebook_logo.png"></a>
+                <a href="https://twitter.com/LaLiga"><img id="twitter" src="./images/redes_sociales/twitter_logo.png"></a>
+                <a href="https://www.youtube.com/user/laliga"><img id="youtube" src="./images/redes_sociales/youtube_logo.png"></a>
             </section>
             <p>Sitio creado en HTML por David Broglio Quero</p>
         </footer>
